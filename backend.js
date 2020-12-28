@@ -26,7 +26,7 @@ $(document).ready(function(){
 	});
 	
 	// main_desc
-	$("#main_desc").html("Are you bored ? <br/><br/>If yes you can find many simple games on this webpage. <br/>In section GAMES you have list of all the games. <br/>There are also many different suprises hidden everywhere.<br/><br/>Here is very, very simple game below. <br/><br/>- click on the rectangle 100 times");
+	$("#main_desc").load("assets/texts/main_desc.txt");
 
 	$("#main_desc").click(function(){
 		$(this).css("color", "#000539");
