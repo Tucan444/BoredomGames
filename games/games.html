@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="game-styles.css"/>
+    <title>Boredom Games</title>
+</head>
+<body>
+    <header id="header">
+        
+        <div class="navbar_items">
+            <p class="ni outerNi"><a class="ni" href="../index.html">HOME</a></p>
+        </div>
+
+        <div class="navbar_items">
+            <p class="ni outerNi"><a class="ni question_mark_navbar">?</a></p>
+            <p class="ni outerNi"><a class="ni">HELLO</a></p>
+            <p class="ni outerNi"><a class="ni" href="games.html">GAMES</a></p>
+            <p class="ni outerNi"><a class="ni" href="https://tucan444.itch.io/">AUTHOR</a></p>
+        </div>
+    </header>
+    <section>
+        <div class="game">
+            <p class="title title_shadow brrr">1. Click by the color of text.</p>
+
+            <div class="colors">
+                <p class="color_current mid"></p>
+                <div class="color_options"></div>
+                <p class="colors_score right">0</p>
+            </div>
+        </div>
+
+        <div class="game">
+            <p class="title title_shadow title2">2. Make the circles collide.</p>
+
+            <p class="amplitude">Amplitude: 120</p>
+
+            <div class="game_box cgame">
+                <span class="amplitude_shower amplitude_showerX"></span>
+                <span class="amplitude_shower shower"></span>
+                <span class="circle" id="moving_circle"></span>
+                <span class="circle" id="target_circle"></span>
+            </div>
+
+            <div class="secret"></div>
+        </div>
+
+        <div class="game">
+            <p class="title title_shadow title3">3. Fade the elements</p>
+
+            <div class="game_box sgame"></div>
+
+            <p class="element helloX">/   Generate new game!   /</p>
+        </div>
+    </section>
+
+    <footer>
+        <p class="footer">wow</p>
+    </footer>
+    <script src="engine.js"></script>
+</body>
+</html>
